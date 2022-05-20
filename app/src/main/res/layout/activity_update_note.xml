@@ -78,7 +78,7 @@
                 android:background="@drawable/green_priority"/>
 
             <EditText
-                android:inputType="date"
+                android:inputType="none"
                 android:gravity="center"
                 android:id="@+id/deadLineDateEditTextUpdate"
                 android:padding="10dp"

@@ -75,18 +75,31 @@
                 android:layout_margin="10dp"
                 android:background="@drawable/green_priority"/>
 
-            <EditText
-                android:inputType="date"
-                android:layout_gravity="center"
-                android:id="@+id/deadLineDateEditText"
-                android:padding="10dp"
-                android:background="@drawable/note_background"
+<!--            <EditText-->
+<!--                android:focusable="false"-->
+<!--                android:inputType="none"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:id="@+id/deadLineDateEditText"-->
+<!--                android:padding="10dp"-->
+<!--                android:background="@drawable/note_background"-->
+<!--                android:layout_marginStart="10dp"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:fontFamily="@font/product_sans_regular"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:hint="DedLine Date..."/>-->
+
+            <TextView
+                android:hint="DedLine Date..."
                 android:layout_marginStart="10dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:onClick="setDate"
                 android:fontFamily="@font/product_sans_regular"
                 android:textColor="@color/black"
-                android:hint="DedLine Date..."/>
+                android:background="@drawable/note_background"
+                android:padding="10dp"
+                android:id="@+id/deadLineDateEditText"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"/>
 
         </LinearLayout>
 
